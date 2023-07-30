@@ -1,0 +1,138 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 10px 0px 10px 0px;
+}
+header > ul{
+    list-style: none;
+    justify-content: center;
+    display: inline-flex;
+}
+header > ul > li{
+    margin: 10px 10px 10px 10px;
+}
+h2, ul, li, a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#title-int{
+    font-family: 'Poppins', sans-serif;
+    font-size: 600;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+}
+.button2{
+    background-color: rgb(0, 38, 255); 
+    color: rgb(194, 194, 194); 
+    border: 2px solid #0051ba;
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    font-weight: 800;
+    margin-top: 50px;
+    position: relative;
+}
+#interations{
+    margin: 70px 10px 10px 10px;
+}
+#apresentation{
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+#apresentation h2{
+    font-size: 50px;
+}
+#apresentation iframe{
+    border-style: none;
+}
+.button2:hover{
+    background-color: #1944ff;
+    color: white;
+}
+#sec-init{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#marcas{
+    margin: 60px 0px 40px 0px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px 0px 20px 0px;
+    justify-content: center;
+}
+.marcs{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    border-radius:20px;
+    background-color: #ffffff;
+    margin: 10px;
+    position: relative;
+}
+content{
+    position: absolute;
+}
+.marcs > p{
+    font-family: 'Poppins', sans-serif;
+}
+#serv{
+    text-align: center;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+#serv > #conheça{
+    font-weight: bold;
+    color:rgb(252, 30, 30);
+    font-family: 'Poppins', sans-serif;
+}
+#meuserviço{
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+    font-family: 'Poppins', sans-serif;
+}
+#serv > p{
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+#servic{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+}
+.solu{
+    margin: 50px;
+}
+.chv{
+    background-color: rgb(47, 196, 47);
+    font-weight: 800;
+    padding: 40px 100px ;
+    color: white;
+    border-style: none;
+}
+#infs{
+    display: inline-flex;
+}
